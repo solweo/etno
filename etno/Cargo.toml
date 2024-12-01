@@ -1,0 +1,16 @@
+[package]
+name = "etno"
+description = "Enhanced Tacos, No Onions"
+keywords = ["tacos", "onions"]
+version = { workspace = true }
+rust-version.workspace = true
+edition.workspace = true
+readme = "../README.md"
+license-file = "../LICENSE"
+repository = "https://github.com/solweo/etno"
+authors = ["Adrian Alekseev", "solweo"]
+
+[dependencies]
+
+[features]
+default = []
