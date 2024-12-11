@@ -6,7 +6,8 @@ version = { workspace = true }
 rust-version.workspace = true
 edition.workspace = true
 readme = "../README.md"
-license-file = "../LICENSE"
+license = "AGPL-3.0"
+license-file.workspace = true
 repository = "https://github.com/solweo/etno"
 authors = ["Adrian Alekseev", "solweo"]
 
